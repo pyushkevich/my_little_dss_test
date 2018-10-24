@@ -1,0 +1,24 @@
+{
+  "name": "SliceInterp",
+  "version": "0.1.0",
+  "keywords": [
+    "segmentation",
+    "interpolation"
+  ],
+  "shortdesc": "DSS tutorial service (interpolate 2D segmentations)",
+  "longdesc": "Given a set of 2D slice segmentations, this service interpolates the segmentations in 3D",
+  "tags": [
+    {
+      "name": "Anatomy",
+      "type": "MainImage",
+      "hint": "The anatomical image you are trying to segment",
+      "required": true
+    },
+    {
+      "name": "SliceSeg",
+      "type": "Segmentation",
+      "hint": "The segmentation you wish to interpolate",
+      "required": true
+    },
+  ]
+}
