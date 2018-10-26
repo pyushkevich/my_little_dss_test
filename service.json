@@ -19,6 +19,6 @@
       "type": "Segmentation",
       "hint": "The segmentation you wish to interpolate",
       "required": true
-    },
+    }
   ]
 }
